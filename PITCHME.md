@@ -1,7 +1,12 @@
 ### 1 こんちは
 
-+++
 1 てすと 
+- Java
+- JavaScript |
+- Kotlin |
+- Go |
+- Scala |
+
 
 ---
 
