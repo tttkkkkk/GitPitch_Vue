@@ -79,3 +79,47 @@ p147
   - HTML5 History API   | 
     - 履歴スタックを操作   | 
     - スタックとは？   | 
+---
+p149
+### 5章 Vue.jsの高度な機能
+---
+p150
+### transitionラッパーコンポーネント
+  -  要素の出現、トランジションに伴ったアニメーション  | 
+  -  コンポーネント or 要素の表示状態に応じて、アニメーション処理  | 
+---
+p151
+### トランジションクラス
+  - タイミング   | 
+    - v-enter          要素の挿入前   | 
+    - v-enter-to       アニメーション開始時   | 
+    - v-enter-active   要素の挿入からアニメーション終了まで   | 
+    - v-leave          削除のアニメーション開始前   | 
+    - v-leave-to       削除のアニメーション開始時   | 
+    - v-leave-active   削除のアニメーションの開始前から終了後まで   | 
+---
+p151～154
+### fadeトランジション（サンプル）
+https://jsfiddle.net/vwsx7e80/
+---
+p156
+### 場合によってはJavaScriptフック
+  - アニメーションに要素の大きさや画面の位置、コンポーネントの状態といった動的な値を用いる場合   | 
+  - 各イベントに対するイベントリスナーは v-on で設定   | 
+    - v-on:before-enter   | 
+    - v-on:enter   | 
+    - v-on:after-enter   | 
+    - v-on:enter-cancelled   | 
+    - v-on:before-leave   | 
+    - v-on:leave   | 
+    - v-on:after-leave   | 
+    - v-on:leave-cancelled   | 
+  - ※置換え可能 v-on:  →   @  | 
+---
+p157～160
+### JavaScriptフック（サンプル）
+https://jsfiddle.net/kitak/r84y9c1v/
+---
+p160
+### スロット
+  -    | 
